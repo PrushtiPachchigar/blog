@@ -1,0 +1,44 @@
+body{
+    background: rgba(39,39,39,0.4);
+    background: url('login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300vh;
+    background: rgba(39,39,39,0.4);
+}
+.box{
+    width: 80%;
+    height: 100%;
+    position: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(39,39,39, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    color: aliceblue;
+}
+ .box h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+}
+.box h5{
+    margin-top: 10px;
+    font-size: 20px;
+    color: yellow;
+}
+.box p{
+    font-size: 15px;
+}
